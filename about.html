@@ -13,7 +13,7 @@
       color: #222;
     }
     .container {
-      max-width: 700px;
+      max-width: 680px;
       background: #fff;
       margin: 60px auto 0;
       padding: 40px 30px 30px 30px;
@@ -34,14 +34,23 @@
       font-size: 2.1em;
       letter-spacing: 1px;
     }
+    h2 {
+      font-size: 1.2em;
+      color: #0072ef;
+      margin: 10px 0 14px 0;
+      font-weight: normal;
+    }
     p {
       font-size: 1.13em;
       line-height: 1.7;
       margin: 18px 0 22px 0;
     }
-    .back-link {
+    .links {
+      margin-top: 18px;
+    }
+    .links a {
       display: inline-block;
-      margin-top: 22px;
+      margin: 0 8px;
       padding: 8px 18px;
       text-decoration: none;
       color: #fff;
@@ -50,23 +59,41 @@
       font-size: 1em;
       transition: background 0.2s;
     }
-    .back-link:hover {
+    .links a:hover {
       background: #005bb5;
+    }
+    .back-link {
+      display: block;
+      margin-top: 30px;
+      color: #0072ef;
+      text-decoration: none;
+      font-size: 1em;
+      transition: color 0.2s;
+    }
+    .back-link:hover {
+      color: #005bb5;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <!-- Optional: Add your photo here -->
-    <!-- <img src="your-photo.jpg" alt="Luigi Muci" class="profile"> -->
-    <h1>About Me</h1>
+    <img src="your-photo.jpg" alt="Luigi Muci" class="profile">
+    <h1>Luigi Muci</h1>
+    <h2>PhD Student · African Cultural Studies · University of Wisconsin-Madison</h2>
     <p>
-      Hello! I'm Luigi Muci.<br>
-      I research the ways in which nations are imagined within and throguh expressive culture.<br>
-      I am currently I PhD student in the Department of African Cultural Studies at the University of Wisconsin-Madison in the USA. Previously I hold an MSc in African Studies from the University of Oxford and a BA in History from University College London with a year abroad at UC Berkeley.<br>
-      <br>
-      Feel free to explore my CV, projects, or contact me for collaboration opportunities!
+      Hello! I'm Luigi. I research the ways nations are imagined within and through expressive culture.
     </p>
+    <p>
+      I am currently a PhD student at the Department of African Cultural Studies, University of Wisconsin-Madison, USA. I hold an MSc in African Studies from the University of Oxford, with a passion for interdisciplinary approaches to literature, music, and the arts in relation to national identity.
+    </p>
+    <p>
+      My work explores how storytelling, performance, and media shape ideas of belonging and community, especially across African contexts. I'm always eager to collaborate, share ideas, or discuss new projects!
+    </p>
+    <div class="links">
+      <a href="CV.pdf" target="_blank">View CV</a>
+      <a href="mailto:luigimuci@email.com">Contact Me</a>
+      <a href="https://www.linkedin.com/in/luigimuci24/" target="_blank">LinkedIn</a>
+    </div>
     <a class="back-link" href="index.html">← Back to Home</a>
   </div>
 </body>
